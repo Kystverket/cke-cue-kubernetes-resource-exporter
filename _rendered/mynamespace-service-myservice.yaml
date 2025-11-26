@@ -1,0 +1,5 @@
+apiVersion: ""
+kind: Service
+metadata:
+  name: myservice
+  namespace: mynamespace
