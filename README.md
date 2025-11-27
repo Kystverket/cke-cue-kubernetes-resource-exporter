@@ -23,8 +23,6 @@ working, but for now clone repo and run:
 go install cmd/cke/cke.go
 ```
 
-```
-
 ## Usage
 
 Running `cke` will output any kubernetes manifest to stdout
@@ -64,6 +62,8 @@ Adding `-out files` parameter will output into a \_rendered directory
 Created: \_rendered/mynamespace-deployment-myapp.yaml
 Created: \_rendered/mynamespace-service-myservice.yaml
 Created: \_rendered/deployment-myapp.yaml
+
+```
 
 ```
 
