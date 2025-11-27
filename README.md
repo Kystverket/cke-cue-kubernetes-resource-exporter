@@ -15,38 +15,56 @@ Available recipes:
 
 ## Install
 
+Would like to get
 `go install github.com/Kystverket/cke-cue-kubernetes-resource-exporter`
+working, but for now clone repo and run:
+
+```
+go install cmd/cke/cke.go
+```
+
+```
 
 ## Usage
 
 Running `cke` will output any kubernetes manifest to stdout
 
 ```
-: cke
----
+
+## : cke
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
-  namespace: mynamespace
+name: myapp
+namespace: mynamespace
+
 ---
+
 apiVersion: ""
 kind: Service
 metadata:
-  name: myservice
-  namespace: mynamespace
+name: myservice
+namespace: mynamespace
+
 ---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+name: myapp
+
 ```
 
 Adding `-out files` parameter will output into a \_rendered directory
 
 ```
+
 : cke -out files
-Created: _rendered/mynamespace-deployment-myapp.yaml
-Created: _rendered/mynamespace-service-myservice.yaml
-Created: _rendered/deployment-myapp.yaml
+Created: \_rendered/mynamespace-deployment-myapp.yaml
+Created: \_rendered/mynamespace-service-myservice.yaml
+Created: \_rendered/deployment-myapp.yaml
+
+```
+
 ```

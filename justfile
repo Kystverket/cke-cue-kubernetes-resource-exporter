@@ -13,4 +13,7 @@ render:
 # build and install go binary
 build:
   go build cmd/cke/cke.go
-  echo "run ./cke or move cke to your path"
+
+# Install helper
+install:
+  go install cmd/cke/cke.go
