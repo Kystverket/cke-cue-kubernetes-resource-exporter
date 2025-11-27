@@ -29,7 +29,7 @@ Running `cke` will output any kubernetes manifest to stdout
 
 ```
 
-## : cke
+: cke
 
 apiVersion: apps/v1
 kind: Deployment
