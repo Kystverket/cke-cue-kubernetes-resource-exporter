@@ -62,9 +62,4 @@ Adding `-out files` parameter will output into a \_rendered directory
 Created: \_rendered/mynamespace-deployment-myapp.yaml
 Created: \_rendered/mynamespace-service-myservice.yaml
 Created: \_rendered/deployment-myapp.yaml
-
-```
-
-```
-
 ```
