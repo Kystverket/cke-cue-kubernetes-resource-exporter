@@ -1,4 +1,4 @@
-# cke - CUE kubernetes render helper
+# cke - CUE kubernetes exporter
 
 Render helper program to dynamically output cue kubernetes manifests to
 either stdout or a \_rendered directory.
