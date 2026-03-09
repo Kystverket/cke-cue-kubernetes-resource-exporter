@@ -1,4 +1,4 @@
-module github.com/Kystverket/cke-cue-kubernetes-resource-exporter
+module github.com/kystverket/cke-cue-kubernetes-resource-exporter
 
 go 1.24.10
 
