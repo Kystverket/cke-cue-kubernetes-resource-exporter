@@ -26,7 +26,7 @@ jobs:
       - uses: ko-build/setup-ko@v0.9
       - name: Build and push image
         env:
-          KO_DOCKER_REPO: ghcr.io/${{ github.repository_owner }}/cke-cue-kubernetes-resource-exporter
+          KO_DOCKER_REPO: ghcr.io/${{ tolower(github.repository_owner) }}/cke-cue-kubernetes-resource-exporter
           COSIGN_EXPERIMENTAL: "1"
         run: |
           ko build ./cmd/cke \
