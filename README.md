@@ -15,12 +15,8 @@ Available recipes:
 
 ## Install
 
-Would like to get
-`go install github.com/Kystverket/cke-cue-kubernetes-resource-exporter`
-working, but for now clone repo and run:
-
 ```
-go install cmd/cke/cke.go
+go install github.com/kystverket/cke-cue-kubernetes-resource-exporter/cmd/cke@latest
 ```
 
 ## Usage
